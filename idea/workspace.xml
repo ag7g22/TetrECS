@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f205507-ac49-456b-9835-3d516fb7e07d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/Utility/Multimedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/Utility/TextReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/component/Leaderboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/component/PieceBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/component/ScoresList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/event/ChannelCreatedListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/event/GameListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/event/GameLoopListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/event/GameOverListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/event/LineClearedListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/event/NextPieceListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/event/NicknameCreatedListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/game/PieceQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/scene/InstructionsScene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/scene/ScoresScene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/ui/AirportScene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/ui/GameInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/ui/MenuScene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/ui/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/AstronautVibing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/City.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/GiantPlanetShip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/Pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/forest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/menu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/spaceBG.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/music/Checker Dance.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/music/FIFTY FIFTY - Cupid.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/music/GameOver.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/music/GameTetris.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/music/GameTetris2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/music/JungleIsMassive.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/music/LobbyTetris.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/music/MenuTetris.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/music/Tetris3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/BlockStump.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/GameOverSFX.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/HighScore.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/LineCleared.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/Pause.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/PlaceBlock.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/rotatePiece.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/style/Minecraft-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/style/Minecraft-BoldItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/style/Minecraft-Italic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/style/Minecraft-Regular.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/component/GameBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/component/GameBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/component/GameBlockCoordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/component/GameBlockCoordinate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/component/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/component/GameBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/event/BlockClickedListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/event/BlockClickedListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/event/CommunicationsListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/event/CommunicationsListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/game/GamePiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/game/GamePiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/game/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/game/Grid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/network/Communicator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/scene/BaseScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/scene/BaseScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/scene/ChallengeScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/scene/ChallengeScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/scene/MenuScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/scene/MenuScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/ui/GamePane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/ui/GamePane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/ui/GameWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/soton/comp1206/ui/GameWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/ECSGames.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/Instructions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/TetrECS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/music/end.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/music/game.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/music/game_start.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/music/menu.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sounds/clear.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sounds/explode.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sounds/fail.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sounds/intro.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sounds/lifegain.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sounds/message.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sounds/place.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sounds/pling.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sounds/rotate.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sounds/transition.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/style/Orbitron-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/style/Orbitron-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/style/Orbitron-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/style/Orbitron-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/style/Orbitron-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/style/Orbitron-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/style/game.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/style/game.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2N0FK2iJ2lPUukRNSuWv6eWF7BC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Antoni_gn/ECS/Year 1 Semester 2/COMP1206 Programing II/Coursework Game",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Antoni_gn\ECS\Semester 2\COMP1206 Programing II\Coursework Game\src\main\java\uk\ac\soton\comp1206" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Antoni_gn\Coursework\src\main\resources\sounds" />
+      <recent name="C:\Users\Antoni_gn\Coursework\src\main\resources\music" />
+      <recent name="C:\Users\Antoni_gn\Coursework\src\main\resources\images" />
+      <recent name="C:\Users\Antoni_gn\Coursework\src\main\resources\style" />
+      <recent name="C:\Users\Antoni_gn\Coursework\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uk.ac.soton.comp1206.App" />
+      <module name="Coursework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uk.ac.soton.comp1206.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Launcher" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uk.ac.soton.comp1206.Launcher" />
+      <module name="tetrecs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uk.ac.soton.comp1206.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f205507-ac49-456b-9835-3d516fb7e07d" name="Changes" comment="" />
+      <created>1678793027043</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678793027043</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
