@@ -1,0 +1,337 @@
+@font-face {
+    font-family: "Minecraft";
+    src: url("Minecraft-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Minecraft";
+    src: url("Minecraft-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Minecraft";
+    src: url("Minecraft-Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Minecraft";
+    src: url("Minecraft-BoldItalic.otf") format("opentype");
+}
+
+body {
+    font-family: "Minecraft", sans-serif
+}
+
+.gamePane {
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+}
+
+.menu-background {
+    -fx-background-image: url("../images/forest.jpg");
+    -fx-background-size: cover;
+}
+
+.challenge-background {
+    -fx-background-image: url("../images/forest.jpg");
+    -fx-background-size: cover;
+}
+
+.scores-background {
+    -fx-background-image: url("../images/City.jpg");
+    -fx-background-size: cover;
+}
+
+.lobby-background {
+    -fx-background-image: url("../images/AstronautVibing.jpg");
+    -fx-background-size: cover;
+}
+
+.menuItem {
+    -fx-text-fill: white;
+    -fx-font-family: 'Minecraft';
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-background-color: transparent;
+}
+
+.menuItem:hover {
+    -fx-text-fill: yellow;
+}
+
+.menuItem.selected {
+    -fx-fill: yellow;
+}
+
+.instructions {
+    -fx-background-color: black;
+}
+
+.instruction-page {
+    -fx-font-family: 'Minecraft';
+    -fx-font-size: 32px;
+    -fx-fill: white;
+    -fx-font-weight: bold;
+}
+
+.instruction-content {
+    -fx-font-family: 'Minecraft';
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-fill: white;
+}
+
+.instruction-arrow {
+    -fx-font-family: 'Minecraft';
+    -fx-font-size: 32px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: transparent;
+}
+
+.instruction-arrow:hover {
+    -fx-text-fill: yellow;
+}
+.instruction-arrow-none {
+    -fx-text-fill: transparent;
+}
+
+.bigTitle {
+    -fx-fill: white;
+    -fx-font-family: 'Minecraft';
+    -fx-font-size: 90px;
+    -fx-font-weight: bold;
+    -fx-stroke: black;
+    -fx-stroke-width: 4px;
+}
+
+.title {
+    -fx-fill: white;
+    -fx-font-family: 'Minecraft';
+    -fx-font-size: 80px;
+    -fx-font-weight: bold;
+    -fx-stroke: black;
+    -fx-stroke-width: 4px;
+}
+
+.heading {
+    -fx-fill: white;
+    -fx-font-family: 'Minecraft';
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.progress-bar {
+   -fx-accent: yellow;
+}
+
+.progress-bar .track {
+   -fx-background-color: transparent;
+}
+
+.progress-bar-warning {
+   -fx-accent: orange;
+}
+
+.progress-bar-urgent {
+   -fx-accent: red;
+}
+
+.stopped-game {
+    -fx-background-color: rgba(0, 0, 0, 0.7);
+}
+
+.pieces {
+    -fx-fill: white;
+    -fx-font-family: 'Minecraft';
+    -fx-font-size: 16px;
+}
+
+.score {
+    -fx-fill: white;
+    -fx-font-family: 'Minecraft';
+    -fx-font-size: 20px;
+    -fx-border-color: black;
+    -fx-font-weight: bold;
+}
+
+.level {
+    -fx-fill: white;
+    -fx-font-family: 'Minecraft';
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.highScore {
+    -fx-fill: yellow;
+    -fx-font-family: 'Minecraft';
+    -fx-font-size: 20px;
+    -fx-border-color: black;
+    -fx-font-weight: bold;
+}
+
+.lives {
+    -fx-fill: white;
+    -fx-font-family: 'Minecraft';
+    -fx-font-size: 36px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.scoreList {
+    -fx-background-color: rgba(0, 0, 0, 0.7);
+}
+
+.scoreItem {
+    -fx-background-color: rgba(0, 0, 0, 0.7);
+    -fx-font-family: 'Minecraft';
+    -fx-font-size: 24px;
+    -fx-fill: white;
+}
+
+.topScoreItem {
+    -fx-font-family: 'Minecraft';
+    -fx-font-size: 24px;
+    -fx-fill: yellow;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}
+
+.scorer {
+    -fx-font-size: 24px;
+    -fx-font-family: 'Minecraft';
+}
+
+.myScore {
+    -fx-background-color: transparent;
+    -fx-font-weight: 700;
+    -fx-font-size: 24px;
+    -fx-font-family: 'Minecraft';
+}
+
+.channelBox {
+   -fx-background-color: rgba(0, 0, 0, 0.7);
+}
+
+.channelScroll {
+   -fx-background: transparent;
+   -fx-background-color: transparent;
+}
+
+.channelTitleBox {
+   -fx-border-color: rgba(255, 255, 255, 0.2);
+   -fx-border-width: 1px;
+}
+
+.channelTitle {
+    -fx-font-family: 'Minecraft';
+    -fx-font-size: 24px;
+    -fx-fill: white;
+    -fx-font-weight: bold;
+}
+
+.channelItem {
+    -fx-font-family: 'Minecraft';
+    -fx-font-size: 16px;
+    -fx-fill: white;
+}
+
+.channelItemBox {
+    -fx-background-color: transparent;
+    -fx-border-color: rgba(255, 255, 255, 0.2);
+    -fx-border-width: 1px;
+}
+
+.channelItemBox:hover {
+    -fx-border-color: rgba(255, 255, 0, 0.3);
+    -fx-border-width: 1px;
+}
+
+.userBox {
+    -fx-background-color: transparent;
+    -fx-border-color: rgba(255, 255, 255, 0.2);
+    -fx-border-width: 1px;
+}
+
+.enter-nickname {
+  -fx-background-color: black;
+  -fx-font-family: 'Minecraft';
+  -fx-font-size: 14px;
+  -fx-fill: white;
+}
+
+.chat-box {
+    -fx-background-color: black;
+    -fx-border-color: rgba(255, 255, 255, 0.2);
+    -fx-border-width: 1px;
+}
+
+.online-chat-box {
+    -fx-background-color: transparent;
+}
+
+.chat-player {
+  -fx-font-family: 'Minecraft';
+  -fx-font-size: 16px;
+  -fx-fill: white;
+  -fx-font-weight: bold;
+}
+
+.chat-host {
+  -fx-font-family: 'Minecraft';
+  -fx-font-size: 16px;
+  -fx-fill: yellow;
+  -fx-font-weight: bold;
+}
+
+.chat-message {
+  -fx-font-family: 'Minecraft';
+  -fx-font-size: 16px;
+  -fx-fill: white;
+}
+
+.chat-button {
+  -fx-text-fill: yellow;
+  -fx-font-family: 'Minecraft';
+  -fx-font-size: 16px;
+  -fx-font-weight: bold;
+  -fx-background-color: transparent;
+}
+
+.onlineScoreItem {
+    -fx-font-family: 'Minecraft';
+    -fx-font-size: 12px;
+    -fx-fill: white;
+}
+
+.onlineTopScoreItem {
+    -fx-font-family: 'Minecraft';
+    -fx-font-size: 12px;
+    -fx-fill: yellow;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}
+
+.onlineDeadPlayer {
+    -fx-font-family: 'Minecraft';
+    -fx-font-size: 12px;
+    -fx-fill: grey;
+    -fx-font-style: italic;
+}
+
+.gameBox {
+    -fx-padding: 10;
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-border-color: white;
+    -fx-border-width: 1;
+}
